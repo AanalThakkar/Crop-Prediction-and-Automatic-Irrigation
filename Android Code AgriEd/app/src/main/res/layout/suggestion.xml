@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/images"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUGGESTION"
+        />
+
+    <EditText
+
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/rectangle1"
+        android:id="@+id/suggestion"
+        android:textColor="@color/black"
+        android:layout_width="300dp"
+        android:scrollbars="vertical"
+        android:textColorHint="#5C000000"
+        android:gravity="top"
+        android:hint="How could we make AgriEd even better?"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:id="@+id/submit_suggestion"
+        android:backgroundTint="#035EA6"
+        android:gravity="center"
+        android:textColor="#F8F9FB"
+        android:textSize="20sp"
+        android:layout_marginLeft="45dp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:text="SUBMIT"/>
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Contact Us" />
+
+    <item android:title="Feedback">
+        <menu>
+    <item
+        android:id="@+id/nav_bug"
+        android:title="I Spotted a Bug" />
+    <item
+        android:id="@+id/nav_suggestion"
+        android:title="I Have a Suggestion" />
+        </menu>
+    </item>
+    <group android:id="@+id/logout">
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout" />
+    </group>
+
+</menu>
